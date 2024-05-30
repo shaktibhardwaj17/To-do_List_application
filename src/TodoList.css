@@ -1,0 +1,42 @@
+.todo-list {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    width: 80%;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px;
+    margin-top: 10px;
+  }
+  
+  .filters, .sort-options {
+    margin-top: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+  }
+  
+  li span {
+    cursor: pointer;
+  }
+  
